@@ -4,32 +4,31 @@ This project demonstrates how to use the Chrome UX Report (CrUX) History API to 
 
 ## Project Structure
 
-crux-history-app/
-├── node_modules/
-├── dist/
-├── src/
-│ ├── index.ts
-├── client/
-│ ├── node_modules/
-│ ├── public/
-│ │ ├── index.html
-│ ├── src/
-│ │ ├── components/
-│ │ │ └── CruxData.tsx
-│ │ ├── services/
-│ │ │ └── cruxService.ts
-│ │ ├── App.tsx
-│ │ ├── App.css
-│ │ ├── index.tsx
-│ │ ├── index.css
-│ │ └── react-app-env.d.ts
-│ ├── package.json
-│ ├── package-lock.json
-│ ├── tsconfig.json
-├── package.json
-├── tsconfig.json
-├── package-lock.json
-└── README.md
+    .
+    crux-api-server/
+    ├── crux-api-client/
+    │ ├── node_modules/
+    │ ├── public/
+    │ │ ├── index.html
+    │ ├── src/
+    │ │ ├── components/
+    │ │ │ └── MultiSelectDropdown/
+    │ │ │   └── MultiSelectDropdown.tsx
+    │ │ ├── services/
+    │ │ │ └── cruxApiService.ts
+    │ │ ├── App.tsx
+    │ │ ├── App.css
+    │ │ ├── index.tsx
+    │ │ ├── index.css
+    │ │ └── react-app-env.d.ts
+    │ ├── package.json
+    │ ├── package-lock.json
+    │ ├── tsconfig.json
+    ├── node_modules/
+    ├── package.json
+    ├── package-lock.json
+    ├── server.ts
+    └── README.md
 
 
 ## Prerequisites

@@ -130,7 +130,7 @@ const App: React.FC = () => {
           onSelect={handleMetricSelect}
         />
         <Button type="submit" variant="contained" color="primary">
-          Get Metrics
+          Get CrUX Data
         </Button>
       </form>
       {loading && (

@@ -86,3 +86,8 @@ File: src/App.tsx
 Description: The React component that allows users to input a URL, select a metric, and fetch CrUX data filtered as per the metric(s) selected. If nothing is selected it fetches all the data
 File: src/services/cruxApiService.ts
 Description: A service that makes HTTP requests to the backend to fetch CrUX data.
+
+### License
+This project is licensed under the MIT License.
+
+This `README.md` file provides a clear overview of the project, setup instructions, and usage guidelines
